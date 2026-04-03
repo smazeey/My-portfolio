@@ -1,0 +1,97 @@
+
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+   
+
+}.login{
+    display: flex;
+ width: 50%;
+flex-direction: column;
+    min-height: 100vh;
+  margin: 10px auto;
+background: (225,255,225,0.2);
+box-shadow:  0 8px 20px; 
+border-radius: 17px;
+background: linear-gradient(#ffffff);
+
+
+}
+
+H1{
+    font-size: medium;
+    font-style: oblique;
+     font-weight: lighter;
+}
+     
+
+input{
+     padding: 8px;
+     font-size: small;
+     font-weight: lighter;
+     
+}
+
+
+ button:hover {
+    border-radius: 15px;
+    padding: 8px;
+    cursor: pointer;
+ }
+ select {
+    padding: 8px;
+ }
+
+
+
+.header  {
+   font-size: medium;
+   font-weight: bolder;
+}
+
+    
+ ol {
+    padding: 0;
+margin: 10px auto;
+    width: 30%;
+    max-width: 30%;
+border:  1px (white);
+box-shadow:  0  8px 32px; 
+border-radius: 50px;
+background: linear-gradient(#ffffff);
+ }
+
+ .about{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+word-spacing: o.5 rem;
+line-height: 1.5rem;
+ }
+ 
+ .highlight{
+font-style: oblique;
+font-weight: bold;
+ }
+
+ img{
+    width: 200px;
+ }
+ .project{
+    margin: 10px auto;
+    width: 60%;
+    max-width: 50%;
+border:  1px  solid(white);
+box-shadow:  0  8px 32px; 
+border-radius: 15px;
+background: linear-gradient(#ffffff);
+ }
+ .contact{
+     margin: 10px auto;
+     width: 60%;
+     max-width: 50%;
+border:  1px (white);
+box-shadow:  0  8px 32px; 
+border-radius: 15px;
+background: linear-gradient(#ffffff);
+ }
