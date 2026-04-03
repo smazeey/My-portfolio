@@ -15,7 +15,7 @@ alert("Hello,Welcome!!")
 
     // call for windows redirection
 
-window.location.href = "index.html";
+window.location.href="profile.html";
 alert("Welcome back  " + name + ("!."));
 
 // decision

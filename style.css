@@ -1,21 +1,24 @@
 
 body{
-    text-align: center;
+    
+    background-color: whitesmoke;
+     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: whitesmoke;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
    
 
 }.login{
     display: flex;
  width: 50%;
 flex-direction: column;
-    min-height: 100vh;
   margin: 10px auto;
 background: (225,255,225,0.2);
 box-shadow:  0 8px 20px; 
 border-radius: 17px;
 background: linear-gradient(#ffffff);
+ 
 
 
 }
@@ -24,6 +27,7 @@ H1{
     font-size: medium;
     font-style: oblique;
      font-weight: lighter;
+
 }
      
 
@@ -86,12 +90,17 @@ box-shadow:  0  8px 32px;
 border-radius: 15px;
 background: linear-gradient(#ffffff);
  }
- .contact{
+ .contact {
      margin: 10px auto;
-     width: 60%;
-     max-width: 50%;
+     width: 20%;
 border:  1px (white);
 box-shadow:  0  8px 32px; 
 border-radius: 15px;
 background: linear-gradient(#ffffff);
  }
+
+
+
+
+
+ 
